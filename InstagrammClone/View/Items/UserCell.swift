@@ -14,8 +14,7 @@ struct UserCell: View {
                 .resizable()
                 .scaledToFill()
                 .frame(width: 48, height: 48)
-                .clipped()
-            .clipShape(Circle())
+                .clipShape(Circle())
             
             VStack {
                 Text("tedmosby")
