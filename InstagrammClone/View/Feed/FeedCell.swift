@@ -16,7 +16,7 @@ struct FeedCell: View {
                     .scaledToFill()
                     .frame(width: 36, height: 36)
                     .clipped()
-                .cornerRadius(18)
+                    .cornerRadius(18)
                 Text("tedmosby")
                     .font(.system(size: 14, weight: .semibold))
             }
