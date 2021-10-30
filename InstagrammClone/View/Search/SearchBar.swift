@@ -45,8 +45,8 @@ struct SearchBar: View {
     }
 }
 
-//struct SearchBar_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SearchBar(text: <#Binding<String>#>)
-//    }
-//}
+struct SearchBar_Previews: PreviewProvider {
+    static var previews: some View {
+        SearchBar(text: .constant(""), isEditing: .constant(false))
+    }
+}
