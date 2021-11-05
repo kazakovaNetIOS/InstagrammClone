@@ -20,7 +20,7 @@ struct MainView: View {
                     Image(systemName: "magnifyingglass")
                 }
             
-            UploadPostView(postImage: Image("ted"))
+            UploadPostView()
                 .tabItem {
                     Image(systemName: "plus.square")
                 }
